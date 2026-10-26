@@ -2,8 +2,8 @@ name: Atualizar notícias
 
 on:
   schedule:
-    - cron: "0 9 * * *"   # 09:00 UTC = 06:00 no horário de Brasília
-  workflow_dispatch:       # permite rodar na mão pela aba Actions
+    - cron: "0 9 * * *"
+  workflow_dispatch:
 
 permissions:
   contents: write
